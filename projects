@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Vineet M. Payyappalli</h1>
+    <p>Operations Researcher | Data Sceintist <br>
+       PhD Candidate, Industrial Engineering (Operations Research) - graduating in Feb 2019 <br>
+       University at Buffalo, The State University of New York 
+    </p>
+
+    <div class="projects">
+      <h2>Projects:</h2>
+        <p>1) National Institute of Technology Calicut Alumni Mentoring Program (NITCAMP): From April 2017, I have been working with other alumni of my alma mater National Institute of Technology Calicut (NITC), to develop a mentoring program for current students at NITC. The program provides a platform for NITC students to interact with alumni who could provide guidance regarding higher studies, job search, career, and general professional development. We successfully completed one year, during which, 90+ students interacted with 40+ alumni. This year, I developed an algorithm for matching students and alumni based on their individual preferences. This automated matching was necessary as the number of mentors available (40+) was significantly less than the number of students interested (500+)! The algorithm is available in my GitHub page <a href="https://github.com/vineetmp/NITCAMP_matching">here</a>. Click here to learn more about <a href="http://www.nitcaausa.org/mentoring/">NITCAMP</a>.</p>
+        <p>2) August 25, 2018: I have reached back Buffalo after a great summer internship with the Data Science team at WestRock (Atlanta, GA).</p>
+      </div>    
+  </body>
+</html>
