@@ -2,6 +2,20 @@
 <html>
   <head>
     <style>
+      .profile_summary {   
+        float: left;
+        width: 65%;
+        height: 300px;
+        /* line-height: 10px; /* Height / no. of lines to display */
+        overflow: hidden;
+      }
+      .profile_pic {   
+        float: right;
+        width: 20%;
+        height: 300px;
+        padding-left: 20px;
+        overflow: hidden;
+      }
       .leftcolumn {   
         float: left;
         width: 65%;
@@ -26,10 +40,18 @@
   </head>
   <body>
     <h1>Vineet M. Payyappalli</h1>
-    <p>Operations Researcher | Data Sceintist <br>
-       PhD Candidate, Industrial Engineering (Operations Research) - graduating in Feb 2019 <br>
-       University at Buffalo, The State University of New York 
-    </p>
+    <div class="row">
+      <div class="profile_summary">
+        <p>Operations Researcher | Data Sceintist <br>
+          PhD Candidate, Industrial Engineering (Operations Research) - graduating in Feb 2019 <br>
+          University at Buffalo, The State University of New York 
+        </p>
+      </div> 
+      <div class="profile_pic">
+        <img src=profile_Vineet.jpg"pic_trulli.jpg" alt="Vineet">  
+      </div>
+    </div>
+    
 
     <div class="CV_social">
       Connect with me in: 
@@ -53,7 +75,8 @@
       </div> 
       <div class="rightcolumn">
         <a class="twitter-timeline" href="https://twitter.com/vineetmp?ref_src=twsrc%5Etfw">Tweets by vineetmp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
-      </div>    
+      </div>
+    </div>
   </body>
 </html>
 
