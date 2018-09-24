@@ -1,18 +1,87 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
+  <head>
+    <style>
+      img { 
+        width: 25%; 
+      }
+      .profile_summary {   
+        float: left;
+        width: 65%;
+        height: 150px;
+        /* line-height: 10px; /* Height / no. of lines to display */
+        overflow: hidden;
+      }
+      .leftcolumn {   
+        float: left;
+        width: 65%;
+        height: 1000px;
+        /* line-height: 10px; /* Height / no. of lines to display */
+        overflow: hidden;
+      }
+      .rightcolumn {   
+        float: right;
+        width: 20%;
+        height: 1000px;
+        padding-left: 20px;
+        overflow: hidden;
+      }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
   <body>
-    <h1>Vineet M. Payyappalli</h1>
-    <p>Operations Researcher | Data Sceintist <br>
-       PhD Candidate, Industrial Engineering (Operations Research) - graduating in Feb 2019 <br>
-       University at Buffalo, The State University of New York 
-    </p>
+    <h2>Vineet M. Payyappalli</h2>
+    <div class="row">
+      <div class="profile_summary">
+        <p>Operations Researcher | Data Sceintist <br>
+          PhD Candidate, Industrial Engineering (Operations Research) - graduating in Feb 2019 <br>
+          University at Buffalo, The State University of New York 
+        </p>
+      </div> 
+    </div>
+    
+    <div class="row">
+      <div class="research">
+      <h3>Research updates and publication</h3>
+      <h4>Fire risk management:</h4>
+        <p>My PhD dissertation is on data-driven modeling for fire risk management. 
+          Specifically, I am working on spatio-temporal prediction and resource allocation models 
+          to mitigate losses/risk due to structural fires. 
+          The following is a paper on some work done so far:
+        </p>
+        <ul>
+          <li> Adam Behrendt, Vineet M. Payyappalli, Jun Zhuang. 
+            Modeling the Cost Effectiveness of Fire Protection Resource Allocation in the United States: 
+            Models and a 1980-2014 Case Study. Working paper (under revision), University at Buffalo.
+          </li>
+        </ul>
+        
 
-    <div class="research">
-      <h2>Research updates and publication</h2>
-        <h3>Fire risk management:</h3>
-          <p>My PhD dissertation is on data-driven modeling for fire risk management. Specifically, I am working on spatio-temporal prediction and resource allocation models to mitigate losses/risk due to structural fires. The following are some highlights:</p><br>
-      <h3>Other research projects/working papers:</h3>
-          <p>Soccer paper</p>
-    </div>    
+        
+      <h4>Publications:</h4>
+        <ul>
+          <li> Peiqiu Guan, Jing Zhang, Vineet M. Payyappalli, and Jun Zhuang. 2018.
+            Modeling and Validating Public-Private Partnerships in Disaster Management – A Sequential Game Considering Risk Preferences.
+            Decision Analysis. Vol: 15. No: 2. Pages: 55-131.
+          </li>
+          <li> Vineet M. Payyappalli, Adam Behrendt, and Kathryn Lukasiewicz. 2017.
+            Total Cost of Fire in the United States.
+            Technical Report, National Fire Protection Association.
+          </li>
+          <li> Vineet M. Payyappalli, Jun Zhuang, and Victor Richmond R. Jose. 2017.
+            Deterrence and Risk Preferences in Sequential Attacker-Defender Games with Continuous Efforts.
+            Risk Analysis. Vol: 37. No: 11. Pages: 2229-2245.
+          </li>
+        </ul>
+        
+    </div> 
+    </div>
   </body>
 </html>
+
+
