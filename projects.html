@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <style>
+      img { 
+        width: 25%; 
+      }
+      .profile_summary {   
+        float: left;
+        width: 65%;
+        height: 150px;
+        /* line-height: 10px; /* Height / no. of lines to display */
+        overflow: hidden;
+      }
+      .leftcolumn {   
+        float: left;
+        width: 65%;
+        height: 300px;
+        /* line-height: 10px; /* Height / no. of lines to display */
+        overflow: hidden;
+      }
+      .rightcolumn {   
+        float: right;
+        width: 20%;
+        height: 300px;
+        padding-left: 20px;
+        overflow: hidden;
+      }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
   <body>
-    <h1>Vineet M. Payyappalli</h1>
-    <p>Operations Researcher | Data Sceintist <br>
-       PhD Candidate, Industrial Engineering (Operations Research) - graduating in Feb 2019 <br>
-       University at Buffalo, The State University of New York 
-    </p>
-
-    <div class="projects">
+    <h2>Vineet M. Payyappalli</h2>
+    <div class="row">
+      <div class="profile_summary">
+        <p>Operations Researcher | Data Sceintist <br>
+          PhD Candidate, Industrial Engineering (Operations Research) - graduating in Feb 2019 <br>
+          University at Buffalo, The State University of New York 
+        </p>
+      </div> 
+    </div>
+    
+    <div class="row">
+      <div class="projects">
       <h2>Projects:</h2>
       <p> 1) National Institute of Technology Calicut Alumni Mentoring Program (NITCAMP): 
           From April 2017, I have been working with other alumni of my alma mater National Institute of Technology Calicut (NITC), to develop a mentoring program for current students at NITC. 
@@ -23,6 +62,12 @@
         in <a href="https://mealsonwheelswny.org/wp-content/uploads/2017/09/Summer-2017-Newsletter-FINAL.pdf">Meals on Wheels newsletter</a>, and
         in <a href="http://connect.informs.org/probonoanalytics/volunteer/opportunities62">INFORMS Pro Bono Analytics projects page</a>.
       </p>
-    </div>    
+    </div> 
+      <div class="rightcolumn">
+        <a class="twitter-timeline" href="https://twitter.com/vineetmp?ref_src=twsrc%5Etfw">Tweets by vineetmp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
+      </div>
+    </div>
   </body>
 </html>
+
+
